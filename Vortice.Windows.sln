@@ -89,6 +89,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectML", "DirectML", "{A6
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloDirectML", "src\samples\HelloDirectML\HelloDirectML.csproj", "{B2642A4F-8A7C-4968-84FE-35AAC8D8E960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMnist", "src\samples\HelloMnist\HelloMnist.csproj", "{88EDC7C1-47E6-42B7-BFC0-AE1E8FDD2D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{B2642A4F-8A7C-4968-84FE-35AAC8D8E960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2642A4F-8A7C-4968-84FE-35AAC8D8E960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2642A4F-8A7C-4968-84FE-35AAC8D8E960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EDC7C1-47E6-42B7-BFC0-AE1E8FDD2D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EDC7C1-47E6-42B7-BFC0-AE1E8FDD2D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EDC7C1-47E6-42B7-BFC0-AE1E8FDD2D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EDC7C1-47E6-42B7-BFC0-AE1E8FDD2D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +232,7 @@ Global
 		{CA1A3E54-2247-44B3-85E0-68D5737ED768} = {F691F867-5A6E-4C6A-A3BA-1F2200EEB804}
 		{A6D77D79-0370-47BA-9764-61D56B19B00A} = {5676F50D-CC54-4DC6-980D-6B68FFF64065}
 		{B2642A4F-8A7C-4968-84FE-35AAC8D8E960} = {A6D77D79-0370-47BA-9764-61D56B19B00A}
+		{88EDC7C1-47E6-42B7-BFC0-AE1E8FDD2D56} = {A6D77D79-0370-47BA-9764-61D56B19B00A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0734700-42E1-4F87-8DD2-0084849DA44A}
